@@ -1,5 +1,4 @@
-#in
-clude "stdafx.h"
+#include "stdafx.h"
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +10,7 @@ clude "stdafx.h"
 using namespace std;
 using namespace System;
 using namespace System::IO;
+
 #define ENTER 13
 #define ESC 27
 #define UP 72
@@ -44,8 +44,12 @@ const char dan[][55]={
 	"Диаграмма                         ",
 	"Выход                             ",
 };
+
+
 char BlankLine[ ]="                                    ";
 int NC;
+
+
 int menu(int);
 void maxim(struct z*, int);
 void kolvo(struct z *, int);
